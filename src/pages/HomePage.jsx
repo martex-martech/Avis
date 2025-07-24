@@ -65,7 +65,7 @@ function HomePage() {
             onClick={() => window.location.href = '/about#contact'}
           >
             <Download className="mr-2 h-5 w-5" />
-            Download Free App
+            Download Free App ( Coming Soon)
           </Button>
         </div>
       </section>
