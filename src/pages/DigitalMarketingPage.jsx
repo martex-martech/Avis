@@ -31,7 +31,7 @@ function DigitalMarketingPage() {
             <Button
               size="lg"
               className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 text-lg shadow-lg transition-all duration-300 transform hover:scale-105"
-              onClick={() => window.location.href = '/about#contact'}
+             
             >
               Get Free Consultation
             </Button>
@@ -301,7 +301,7 @@ function DigitalMarketingPage() {
             <Button
               size="lg"
               className="bg-white text-[#26495f] border-2 border-[#26495f]/20 hover:bg-[#26495f]/5 hover:text-[#26495f] px-8 py-4 text-lg shadow-lg transition-all duration-300 transform hover:scale-105"
-              onClick={() => window.location.href = '/about#contact'}
+              
             >
               Start Your Digital Journey
               <ArrowRight className="ml-2 h-5 w-5" />

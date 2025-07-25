@@ -15,9 +15,9 @@ function Footer() {
               <img 
                 src={avisLogo} 
                 alt="Avis" 
-                className="h-8 w-auto mr-3 bg-white rounded p-1"
+                className="h-10 w-20 mr-3 bg-white rounded p-1"
               />
-              <span className="text-xl font-semibold">Avis</span>
+              
             </div>
             <p className="text-gray-400 text-sm">
               Empowering Indian businesses with innovative technology solutions for billing, loans, and digital growth.
@@ -65,22 +65,22 @@ function Footer() {
           {/* Contact Info */}
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">Contact Us</h3>
-            <ul className="space-y-3 text-gray-300">
-              <li className="flex items-start">
-                <Phone className="h-5 w-5 mr-2 mt-0.5 flex-shrink-0" />
-                <span>+91 97876 78785</span>
+            <ul className="space-y-1 text-gray-300">
+              <li >
+                
+                <span>Avis Enterprises</span>
               </li>
-              <li className="flex items-start">
-                <Mail className="h-5 w-5 mr-2 mt-0.5 flex-shrink-0" />
-                <span>avis4u.in@gmail.com</span>
+              <li>
+                <div className="h-2.5 w-2.5 mr-2 mt-0.5 flex-shrink-0" />
+                <span>379/7, First Floor</span>
               </li>
-              <li className="flex items-start">
-                <MapPin className="h-5 w-5 mr-2 mt-0.5 flex-shrink-0" />
-                <span>379/7, Goundachi Puthur(Po), Dharapuram - 638656</span>
+              <li >
+                <div className="h-2.5 w-2.5 mr-2 mt-0.5 flex-shrink-0" />
+                <span>Goundachi Puthur(Po),</span>
               </li>
-              <li className="flex items-start">
-                <Clock className="h-5 w-5 mr-2 mt-0.5 flex-shrink-0" />
-                <span>Mon-Sat: 9:00 AM - 6:00 PM</span>
+              <li >
+                <div className="h-2.5 w-2.5 mr-2 mt-0.5 flex-shrink-0" />
+                <span>Dharapuram - 638656</span>
               </li>
             </ul>
           </div>

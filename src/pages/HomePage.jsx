@@ -268,7 +268,7 @@ function HomePage() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900">
-                    Mobile Development
+                    App Development
                   </h3>
                   <p className="text-[#26495f]">Build powerful mobile apps</p>
                 </div>
@@ -309,7 +309,7 @@ function HomePage() {
               </div>
               <Link to="/mobile-development" className="mt-auto block">
                 <Button className="w-full bg-[#26495f] hover:bg-[#26495f]/80 text-white">
-                  Explore Mobile Development
+                  Explore App Development
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>

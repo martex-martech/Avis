@@ -16,7 +16,7 @@ function MobileDevelopmentPage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Build Powerful Mobile Apps with
-            <span className="text-orange-400 block">Avis Mobile Development</span>
+            <span className="text-orange-400 block">Avis App Development</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-white max-w-4xl mx-auto mb-10">
@@ -28,7 +28,7 @@ function MobileDevelopmentPage() {
               <Button
                 size="lg"
                 className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 text-lg shadow-lg transition-all duration-300 transform hover:scale-105"
-                onClick={() => window.location.href = '/about#contact'}
+                
               >
                 Get Free Consultation
               </Button>
@@ -41,10 +41,10 @@ function MobileDevelopmentPage() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Comprehensive Mobile Development Solutions
+            Comprehensive App Development Solutions
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
-            Create innovative mobile applications that drive engagement and growth
+            Create innovative Mobile applications that drive engagement and growth
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -94,10 +94,10 @@ function MobileDevelopmentPage() {
       <section className="py-16 bg-gradient-to-br from-[#26495f]/10 to-[#26495f]/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Why Choose Avis for Mobile Development?
+            Why Choose Avis for App Development?
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
-            Partner with experts who deliver innovative mobile solutions tailored to your business goals
+            Partner with experts who deliver innovative App solutions tailored to your business goals
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -150,7 +150,7 @@ function MobileDevelopmentPage() {
             <Button
               size="lg"
               className="bg-white text-[#26495f] border-2 border-[#26495f]/20 hover:bg-[#26495f]/5 hover:text-[#26495f] px-8 py-4 text-lg shadow-lg transition-all duration-300 transform hover:scale-105"
-              onClick={() => window.location.href = '/about#contact'}
+              
             >
               Start Your Digital Journey
               <ArrowRight className="ml-2 h-5 w-5" />

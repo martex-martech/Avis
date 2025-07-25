@@ -89,13 +89,13 @@ function Navigation() {
 
               <div className={`absolute top-full left-0 mt-2 w-52 rounded-md shadow-lg border bg-white z-50 transition-all duration-300 transform ${isProductsOpen ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 -translate-y-2 pointer-events-none'}`}>
                 <div className="py-2">
-                  {['/billing', '/loan', '/digital-marketing'].map((path, idx) => (
+                  {['/billing', '/loan', '/digital-marketing','/mobile-development','/website-development'].map((path, idx) => (
                     <Link
                       key={idx}
                       to={path}
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-800 transition-all"
                     >
-                      {path === '/billing' ? 'Billing Management' : path === '/loan' ? 'Loan Management' : 'Digital Marketing'}
+                      {path === '/billing' ? 'Billing Management' : path === '/loan' ? 'Loan Management' : path === '/digital-marketing' ? 'Digital Marketing' : path === '/mobile-development' ? 'App Development' : 'Website Development' }
                     </Link>
                   ))}
                 </div>
@@ -151,6 +151,12 @@ function Navigation() {
                   </Link>
                   <Link to="/digital-marketing" className="block py-1 text-gray-700 hover:text-blue-800 text-base">
                     Digital Marketing
+                  </Link>
+                  <Link to="/mobile-development" className="block py-1 text-gray-700 hover:text-blue-800 text-base">
+                    App Development
+                  </Link>
+                  <Link to="/website-development" className="block py-1 text-gray-700 hover:text-blue-800 text-base">
+                    Website Development
                   </Link>
                 </div>
               )}
