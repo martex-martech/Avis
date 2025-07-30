@@ -27,6 +27,7 @@ import {
   Code,
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom'
 import Navigation from "../components/shared/Navigation";
 import Footer from "../components/shared/Footer";
 import billingIcon from "../assets/billing-management.jpg";
@@ -37,6 +38,7 @@ import digitalMarketingIcon from "../assets/digital-marketing.jpg";
 import websiteDevIcon from "../assets/web-development.jpg";
 
 function HomePage() {
+  const navigate = useNavigate()
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-[#26495f]/10">
       <Navigation />
@@ -60,11 +62,12 @@ function HomePage() {
             operations, boost efficiency, and grow faster.
           </p>
           <Button
+            onClick={() => navigate('/coming-soon')}
             size="lg"
             className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 text-lg"
           >
             <Download className="mr-2 h-5 w-5" />
-            Download Free App ( Coming Soon)
+            Download Free App
           </Button>
         </div>
       </section>

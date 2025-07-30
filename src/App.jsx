@@ -11,6 +11,8 @@ import RefundPolicy from './pages/RefundPolicy'
 import TermsAndConditions from './pages/TermsAndConditions'
 import FAQPage from './pages/faqsSection'
 import ErrorPage from './pages/errorPage'
+import ComingSoonPage from './pages/commingSoon'
+import PrivacyPolicy from './pages/privacy-policy'
 import './App.css'
 
 function App() {
@@ -40,6 +42,8 @@ function App() {
       <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
       <Route path='/faq' element={<FAQPage />} />
       <Route path="*" element={<ErrorPage />} />
+      <Route path="/coming-soon" element={<ComingSoonPage />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
     </Routes>
   )
 }

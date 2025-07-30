@@ -4,11 +4,13 @@ import {
   FileText, Phone, Download, UserPlus, Search, TrendingUp, Camera,
   CheckCircle, Star, Award, Target, Zap, Globe, Lock
 } from 'lucide-react';
+import { useNavigate } from 'react-router-dom'
 import Navigation from '../components/shared/Navigation';
 import Footer from '../components/shared/Footer';
 import loanIcon from '../assets/loan-management.jpg';
 
 function LoanPage() {
+  const navigate = useNavigate()
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-[#26495f]/10">
       <Navigation />
@@ -20,7 +22,7 @@ function LoanPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Avis Loan 
+                Avis Loan
                 <span className="text-orange-400 block">Complete Loan Management</span>
               </h1>
               <p className="text-xl text-white mb-8">
@@ -29,6 +31,7 @@ function LoanPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
+                  onClick={() => navigate('/coming-soon')}
                   size="lg"
                   className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg"
                 >
@@ -332,13 +335,14 @@ function LoanPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
+              onClick={() => navigate('/coming-soon')}
               size="lg"
               className="bg-[#26495f] hover:bg-[#26495f]/80 text-white px-8 py-3 text-lg"
             >
               <Download className="mr-2 h-5 w-5" />
               Download Free App
             </Button>
-            
+
           </div>
           <div className="mt-6 text-gray-600">
             <Phone className="h-5 w-5 inline mr-2" />

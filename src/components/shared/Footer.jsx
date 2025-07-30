@@ -59,6 +59,9 @@ function Footer() {
               <li>
                 <Link to="/refund-policy" className="hover:text-blue-400 transition-colors">Refund Policy</Link>
               </li>
+                            <li>
+                <Link to="/privacy-policy" className="hover:text-blue-400 transition-colors">Privacy Policy</Link>
+              </li>
             </ul>
           </div>
 
@@ -85,12 +88,6 @@ function Footer() {
             </ul>
           </div>
         </div>
-
-        {/* Copyright */}
-        {/* Uncomment if needed */}
-        {/* <div className="border-t border-gray-700 pt-8 text-center text-sm text-gray-400">
-          © {new Date().getFullYear()} Avis Enterprises. All rights reserved.
-        </div> */}
       </div>
     </footer>
   )

@@ -1,14 +1,17 @@
 import { Button } from '@/components/ui/button.jsx'
-import { 
-  ShoppingCart, Scan, Calculator, BarChart3, Lock, CreditCard, Settings, 
-  Zap, Shield, FileText, Phone, Monitor, Package, DollarSign, 
+import {
+  ShoppingCart, Scan, Calculator, BarChart3, Lock, CreditCard, Settings,
+  Zap, Shield, FileText, Phone, Monitor, Package, DollarSign,
   Clock, Users, CheckCircle, TrendingUp, Star, Award
 } from 'lucide-react'
 import Navigation from '../components/shared/Navigation'
 import Footer from '../components/shared/Footer'
 import billingIcon from '../assets/billing-management.jpg'
+import { useNavigate } from 'react-router-dom'
+
 
 function BillingPage() {
+  const navigate = useNavigate()
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-[#26495f]/10">
       <Navigation />
@@ -16,7 +19,7 @@ function BillingPage() {
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-[#26495f] text-white">
         <div className="absolute inset-0 bg-gradient-to-r from-[#26495f]/20 via-transparent to-[#26495f]/20"></div>
-        
+
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -24,28 +27,29 @@ function BillingPage() {
                 Avis Billing
                 <span className="text-orange-400 block">Management System</span>
               </h1>
-              
+
               <p className="text-xl text-white mb-8">
-                Transform your business operations with our intelligent billing platform. 
+                Transform your business operations with our intelligent billing platform.
                 From barcode scanning to automated collections, streamline every aspect of your billing process.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  size="lg" 
+                <Button
+                  onClick={() => navigate('/coming-soon')}
+                  size="lg"
                   className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg"
                 >
                   Start Free Trial
                 </Button>
-                
+
               </div>
             </div>
 
             <div className="text-center">
               <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8">
-                <img 
-                  src={billingIcon} 
-                  alt="Billing Management" 
+                <img
+                  src={billingIcon}
+                  alt="Billing Management"
                   className="w-80 h-80 mx-auto rounded-2xl"
                 />
               </div>
@@ -107,7 +111,7 @@ function BillingPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            
+
             {/* Smart Item Management */}
             <div className="bg-white rounded-xl p-6 shadow-lg border border-[#26495f]/20 hover:shadow-xl transition-shadow">
               <div className="flex items-center mb-4">
@@ -283,7 +287,7 @@ function BillingPage() {
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
             Powerful features that give you the competitive edge
           </p>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white rounded-xl p-6 shadow-lg border-2 border-[#26495f]/30 transform hover:scale-105 transition-transform duration-300">
               <Zap className="h-12 w-12 text-[#26495f] mx-auto mb-4" />
@@ -292,7 +296,7 @@ function BillingPage() {
                 Lightning-fast product search with smart abbreviation matching
               </p>
             </div>
-            
+
             <div className="bg-white rounded-xl p-6 shadow-lg border-2 border-[#26495f]/30 transform hover:scale-105 transition-transform duration-300">
               <Settings className="h-12 w-12 text-[#26495f] mx-auto mb-4" />
               <h3 className="text-xl font-bold text-[#26495f] mb-3">Custom Interface</h3>
@@ -300,7 +304,7 @@ function BillingPage() {
                 Adapt the interface to match your specific business workflow
               </p>
             </div>
-            
+
             <div className="bg-white rounded-xl p-6 shadow-lg border-2 border-[#26495f]/30 transform hover:scale-105 transition-transform duration-300">
               <Shield className="h-12 w-12 text-[#26495f] mx-auto mb-4" />
               <h3 className="text-xl font-bold text-[#26495f] mb-3">Security Controls</h3>
@@ -308,7 +312,7 @@ function BillingPage() {
                 Role-based access controls and audit trails for compliance
               </p>
             </div>
-            
+
             <div className="bg-white rounded-xl p-6 shadow-lg border-2 border-[#26495f]/30 transform hover:scale-105 transition-transform duration-300">
               <BarChart3 className="h-12 w-12 text-[#26495f] mx-auto mb-4" />
               <h3 className="text-xl font-bold text-[#26495f] mb-3">Smart Analytics</h3>
@@ -320,7 +324,7 @@ function BillingPage() {
         </div>
       </section>
 
-      
+
 
       {/* Call to Action */}
       <section className="py-16 bg-gradient-to-br from-orange-50 to-orange-100">
@@ -331,16 +335,17 @@ function BillingPage() {
           <p className="text-xl text-gray-600 mb-8">
             Start your free trial today and experience the difference intelligent billing can make
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg" 
+            <Button
+              onClick={() => navigate('/coming-soon')}
+              size="lg"
               className="bg-[#26495f] hover:bg-[#26495f]/80 text-white px-8 py-3 text-lg"
             >
               <Star className="mr-2 h-5 w-5" />
               Start Free Trial
             </Button>
-          
+
           </div>
 
           <div className="mt-8 flex items-center justify-center text-gray-600">
