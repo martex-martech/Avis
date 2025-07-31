@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { ChevronDown, Phone, Menu, X } from 'lucide-react'
-import { Button } from '@/components/ui/button.jsx'
 import avisLogo from '../../assets/avis-logo.png'
 
 function Navigation() {
@@ -89,13 +88,13 @@ function Navigation() {
 
               <div className={`absolute top-full left-0 mt-2 w-52 rounded-md shadow-lg border bg-white z-50 transition-all duration-300 transform ${isProductsOpen ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 -translate-y-2 pointer-events-none'}`}>
                 <div className="py-2">
-                  {['/billing', '/loan', '/digital-marketing','/mobile-development','/website-development'].map((path, idx) => (
+                  {['/billing', '/digital-marketing','/mobile-development','/website-development'].map((path, idx) => (
                     <Link
                       key={idx}
                       to={path}
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-800 transition-all"
                     >
-                      {path === '/billing' ? 'Billing Management' : path === '/loan' ? 'Loan Management' : path === '/digital-marketing' ? 'Digital Marketing' : path === '/mobile-development' ? 'App Development' : 'Website Development' }
+                      {path === '/billing' ? 'Billing Management' : path === '/digital-marketing' ? 'Digital Marketing' : path === '/mobile-development' ? 'App Development' : 'Website Development'}
                     </Link>
                   ))}
                 </div>
@@ -145,9 +144,6 @@ function Navigation() {
                 <div className="ml-4 border-l border-gray-200 pl-3 space-y-1 transition-all">
                   <Link to="/billing" className="block py-1 text-gray-700 hover:text-blue-800 text-base">
                     Billing Management
-                  </Link>
-                  <Link to="/loan" className="block py-1 text-gray-700 hover:text-blue-800 text-base">
-                    Loan Management
                   </Link>
                   <Link to="/digital-marketing" className="block py-1 text-gray-700 hover:text-blue-800 text-base">
                     Digital Marketing

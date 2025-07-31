@@ -27,7 +27,7 @@ function WebsiteDevelopmentPage() {
             <Button
               size="lg"
               className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 text-lg shadow-lg transition-all duration-300 transform hover:scale-105"
-              
+
             >
               Get Free Consultation
             </Button>
@@ -134,6 +134,68 @@ function WebsiteDevelopmentPage() {
         </div>
       </section>
 
+      {/* Pricing Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Transparent & Flexible Pricing
+          </h2>
+          <p className="text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
+            Choose a plan that fits your business. No hidden costs. One-time payment, full ownership.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Basic Plan */}
+            <div className="bg-white border border-[#26495f]/20 rounded-2xl shadow-md hover:shadow-xl transition-all p-8">
+              <h3 className="text-2xl font-bold text-[#26495f] mb-4">Starter</h3>
+              <p className="text-4xl font-extrabold text-[#26495f] mb-2">₹5,000</p>
+              <p className="text-gray-600 mb-6">Simple static website with up to 5 pages</p>
+              <ul className="text-left space-y-3 text-gray-700 mb-6">
+                <li>✔️ Responsive Design</li>
+                <li>✔️ SEO Basics</li>
+                <li>✔️ Contact Form</li>
+                <li>✔️ Delivery within 5 days</li>
+              </ul>
+              <Button className="bg-[#26495f] hover:bg-[#26495f]/90 text-white w-full py-3">
+                Get Starter Plan
+              </Button>
+            </div>
+
+            {/* Professional Plan */}
+            <div className="bg-[#26495f]/5 border-2 border-[#26495f] rounded-2xl shadow-lg transform hover:scale-105 transition-transform p-8">
+              <h3 className="text-2xl font-bold text-[#26495f] mb-4">Professional</h3>
+              <p className="text-4xl font-extrabold text-[#26495f] mb-2">₹12,000</p>
+              <p className="text-gray-600 mb-6">Dynamic website with CMS and integrations</p>
+              <ul className="text-left space-y-3 text-gray-700 mb-6">
+                <li>✔️ Everything in Starter</li>
+                <li>✔️ Admin Panel / CMS</li>
+                <li>✔️ Custom Features</li>
+                <li>✔️ Delivery within 7–10 days</li>
+              </ul>
+              <Button className="bg-[#26495f] hover:bg-[#26495f]/90 text-white w-full py-3">
+                Choose Professional
+              </Button>
+            </div>
+
+            {/* Premium Plan */}
+            <div className="bg-white border border-[#26495f]/20 rounded-2xl shadow-md hover:shadow-xl transition-all p-8">
+              <h3 className="text-2xl font-bold text-[#26495f] mb-4">Enterprise</h3>
+              <p className="text-4xl font-extrabold text-[#26495f] mb-2">₹25,000+</p>
+              <p className="text-gray-600 mb-6">Enterprise-level custom web applications</p>
+              <ul className="text-left space-y-3 text-gray-700 mb-6">
+                <li>✔️ Everything in Pro</li>
+                <li>✔️ Payment Gateway & APIs</li>
+                <li>✔️ Scalable Architecture</li>
+                <li>✔️ Dedicated Support</li>
+              </ul>
+              <Button className="bg-[#26495f] hover:bg-[#26495f]/90 text-white w-full py-3">
+                Book Enterprise Plan
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Call to Action */}
       <section className="py-16 bg-gradient-to-br from-orange-50 to-orange-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -148,7 +210,7 @@ function WebsiteDevelopmentPage() {
             <Button
               size="lg"
               className="bg-white text-[#26495f] border-2 border-[#26495f]/20 hover:bg-[#26495f]/5 hover:text-[#26495f] px-8 py-4 text-lg shadow-lg transition-all duration-300 transform hover:scale-105"
-              
+
             >
               Start Your Digital Journey
               <ArrowRight className="ml-2 h-5 w-5" />

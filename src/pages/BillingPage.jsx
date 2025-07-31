@@ -98,6 +98,53 @@ function BillingPage() {
         </div>
       </section>
 
+      {/* Pricing Section */}
+      <section className="py-24 bg-gradient-to-br from-white to-[#f3f4f6]">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            Pricing
+          </h2>
+          <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
+            Get full access to all features with a single, one-time payment — no subscriptions, no hidden fees.
+          </p>
+
+          <div className="max-w-xl mx-auto bg-white shadow-xl border border-gray-200 rounded-3xl p-10 relative">
+            <div className="absolute -top-5 left-1/2 -translate-x-1/2 bg-[#26495f] text-white px-5 py-1.5 rounded-full text-sm font-medium shadow-lg">
+              Monthly Access
+            </div>
+
+            <h3 className="text-5xl font-extrabold text-[#26495f] mb-2 tracking-tight">
+              ₹2200
+            </h3>
+            <p className="text-gray-500 text-md mb-6">
+              One-time payment. Yours forever.
+            </p>
+
+            <ul className="text-gray-700 text-left space-y-4 mb-8">
+              <li className="flex items-center gap-3">
+                <CheckCircle className="h-5 w-5 text-green-500" />
+                All core billing features included
+              </li>
+              <li className="flex items-center gap-3">
+                <CheckCircle className="h-5 w-5 text-green-500" />
+                No monthly or hidden fees
+              </li>
+              <li className="flex items-center gap-3">
+                <CheckCircle className="h-5 w-5 text-green-500" />
+                Lifetime updates and support
+              </li>
+            </ul>
+
+            <Button
+              onClick={() => navigate('/coming-soon')}
+              className="w-full bg-[#26495f] hover:bg-[#26495f]/90 text-white text-lg py-3 rounded-xl"
+            >
+              Get Started Now
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Core Features Grid */}
       <section className="py-16 bg-gradient-to-br from-gray-50 to-[#26495f]/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -2,7 +2,15 @@ import React from 'react'
 import Navigation from '../components/shared/Navigation'
 import Footer from '../components/shared/Footer'
 import { Button } from '@/components/ui/button.jsx'
-import { Smartphone, Code, LayoutDashboard, Target, Award, Handshake, ArrowRight } from 'lucide-react'
+import {
+  Smartphone,
+  Code,
+  LayoutDashboard,
+  Target,
+  Award,
+  Handshake,
+  ArrowRight
+} from 'lucide-react'
 
 function MobileDevelopmentPage() {
   return (
@@ -12,27 +20,21 @@ function MobileDevelopmentPage() {
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-[#26495f] text-white">
         <div className="absolute inset-0 bg-gradient-to-r from-[#26495f]/20 via-transparent to-[#26495f]/20"></div>
-
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Build Powerful Mobile Apps with
             <span className="text-orange-400 block">Avis App Development</span>
           </h1>
-
           <p className="text-xl md:text-2xl text-white max-w-4xl mx-auto mb-10">
             Deliver engaging, high-performance mobile experiences tailored to your business needs
           </p>
-
           <div className="flex justify-center space-x-4">
-            <div className="flex justify-center space-x-4">
-              <Button
-                size="lg"
-                className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 text-lg shadow-lg transition-all duration-300 transform hover:scale-105"
-                
-              >
-                Get Free Consultation
-              </Button>
-            </div>
+            <Button
+              size="lg"
+              className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 text-lg shadow-lg transition-all duration-300 transform hover:scale-105"
+            >
+              Get Free Consultation
+            </Button>
           </div>
         </div>
       </section>
@@ -136,6 +138,28 @@ function MobileDevelopmentPage() {
         </div>
       </section>
 
+      {/* Pricing Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Transparent & Affordable Pricing
+          </h2>
+          <p className="text-xl text-gray-600 mb-10">
+            Get started with mobile app development at a price that fits your budget — no recurring fees.
+          </p>
+
+          <div className="inline-block bg-gradient-to-br from-[#26495f]/10 to-[#26495f]/5 border border-[#26495f]/20 rounded-2xl shadow-lg p-10">
+            <h3 className="text-5xl font-extrabold text-[#26495f] mb-2">Starts from ₹6000</h3>
+            <p className="text-lg text-gray-700 mb-6">One-time development fee tailored to your project scope</p>
+            <Button
+              className="bg-[#26495f] hover:bg-[#26495f]/90 text-white px-8 py-3 text-lg transition-transform transform hover:scale-105"
+            >
+              Request a Quote
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Call to Action */}
       <section className="py-16 bg-gradient-to-br from-orange-50 to-orange-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -145,12 +169,10 @@ function MobileDevelopmentPage() {
           <p className="text-xl text-gray-600 mb-8">
             Partner with Avis to create innovative, high-quality mobile applications that drive business growth.
           </p>
-
           <div className="flex justify-center space-x-4">
             <Button
               size="lg"
               className="bg-white text-[#26495f] border-2 border-[#26495f]/20 hover:bg-[#26495f]/5 hover:text-[#26495f] px-8 py-4 text-lg shadow-lg transition-all duration-300 transform hover:scale-105"
-              
             >
               Start Your Digital Journey
               <ArrowRight className="ml-2 h-5 w-5" />
