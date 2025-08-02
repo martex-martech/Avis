@@ -159,6 +159,9 @@ importers:
       '@eslint/js':
         specifier: ^9.25.0
         version: 9.26.0
+      '@types/babel__core':
+        specifier: ^7.20.5
+        version: 7.20.5
       '@types/react':
         specifier: ^19.1.2
         version: 19.1.4
