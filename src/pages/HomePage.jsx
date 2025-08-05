@@ -147,52 +147,52 @@ function HomePage() {
             </div>
 
             <div className="mt-6">
-            <div className="bg-gradient-to-br from-[#26495f]/5 to-[#26495f]/10 rounded-2xl p-8 border border-[#26495f]/20 hover:shadow-xl transition-shadow cursor-pointer flex flex-col h-full max-w-xl mx-auto">
-              <div className="flex items-center mb-6">
-                <div className="w-16 h-16 bg-[#26495f] rounded-xl flex items-center justify-center mr-4">
-                  <Code className="h-8 w-8 text-white" />
+              <div className="bg-gradient-to-br from-[#26495f]/5 to-[#26495f]/10 rounded-2xl p-8 border border-[#26495f]/20 hover:shadow-xl transition-shadow cursor-pointer flex flex-col h-full max-w-xl mx-auto">
+                <div className="flex items-center mb-6">
+                  <div className="w-16 h-16 bg-[#26495f] rounded-xl flex items-center justify-center mr-4">
+                    <Code className="h-8 w-8 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-900">
+                      Website Development
+                    </h3>
+                    <p className="text-[#26495f]">Create stunning websites</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900">
-                    Website Development
-                  </h3>
-                  <p className="text-[#26495f]">Create stunning websites</p>
+                <div className="mb-6">
+                  <img
+                    src={websiteDevIcon}
+                    alt="Website Development"
+                    className="w-full h-64 object-contain rounded-xl"
+                    style={{ objectPosition: "center" }}
+                  />
                 </div>
+                <div className="space-y-3 mb-6">
+                  <div className="flex items-center">
+                    <Code className="h-5 w-5 text-[#26495f] mr-3" />
+                    <span className="text-gray-700">Create stunning websites</span>
+                  </div>
+                  <div className="flex items-center">
+                    <Star className="h-5 w-5 text-[#26495f] mr-3" />
+                    <span className="text-gray-700">Responsive & modern design</span>
+                  </div>
+                  <div className="flex items-center">
+                    <Lock className="h-5 w-5 text-[#26495f] mr-3" />
+                    <span className="text-gray-700">Secure & SEO-friendly</span>
+                  </div>
+                  <div className="flex items-center">
+                    <Phone className="h-5 w-5 text-[#26495f] mr-3" />
+                    <span className="text-gray-700">Cross-device compatibility</span>
+                  </div>
+                </div>
+                <Link to="/website-development" className="mt-auto block">
+                  <Button className="w-full bg-[#26495f] hover:bg-[#26495f]/80 text-white">
+                    Explore Website Development
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </Link>
               </div>
-              <div className="mb-6">
-                <img
-                  src={websiteDevIcon}
-                  alt="Website Development"
-                  className="w-full h-64 object-contain rounded-xl"
-                  style={{ objectPosition: "center" }}
-                />
-              </div>
-              <div className="space-y-3 mb-6">
-                <div className="flex items-center">
-                  <Code className="h-5 w-5 text-[#26495f] mr-3" />
-                  <span className="text-gray-700">Create stunning websites</span>
-                </div>
-                <div className="flex items-center">
-                  <Star className="h-5 w-5 text-[#26495f] mr-3" />
-                  <span className="text-gray-700">Responsive & modern design</span>
-                </div>
-                <div className="flex items-center">
-                  <Lock className="h-5 w-5 text-[#26495f] mr-3" />
-                  <span className="text-gray-700">Secure & SEO-friendly</span>
-                </div>
-                <div className="flex items-center">
-                  <Phone className="h-5 w-5 text-[#26495f] mr-3" />
-                  <span className="text-gray-700">Cross-device compatibility</span>
-                </div>
-              </div>
-              <Link to="/website-development" className="mt-auto block">
-                <Button className="w-full bg-[#26495f] hover:bg-[#26495f]/80 text-white">
-                  Explore Website Development
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </Link>
             </div>
-          </div>
             {/* Loan Management Card */}
             {/* <div className="bg-gradient-to-br from-[#26495f]/5 to-[#26495f]/10 rounded-2xl p-8 border border-[#26495f]/20 hover:shadow-xl transition-shadow h-full">
               <div className="flex items-center mb-6">
@@ -455,7 +455,7 @@ function HomePage() {
             </div>
 
             {/* Loan Management Benefits */}
-            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+            {/* <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
               <div className="w-12 h-12 bg-[#26495f] rounded-lg flex items-center justify-center mb-4">
                 <CreditCard className="h-6 w-6 text-white" />
               </div>
@@ -477,8 +477,37 @@ function HomePage() {
                   <span>Portfolio analytics with risk assessment</span>
                 </li>
               </ul>
-            </div>
+            </div> */}
 
+            {/* Web Development Benefits */}
+            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+              <div className="w-12 h-12 bg-[#26495f] rounded-lg flex items-center justify-center mb-4">
+                <Globe className="h-6 w-6 text-white" />
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Web Development</h3>
+              <p className="text-gray-600 mb-3">
+                Professional websites that drive growth and customer engagement.
+              </p>
+              <ul className="space-y-2 text-gray-600">
+                <li className="flex items-start">
+                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
+                  <span>Mobile-first responsive designs that work on all devices</span>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
+                  <span>SEO-optimized architecture for better search rankings</span>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
+                  <span>Fast-loading pages with optimized performance</span>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
+                  <span>Secure hosting with regular maintenance</span>
+                </li>
+              </ul>
+            </div>
+            
             {/* Digital Growth Benefits */}
             <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
               <div className="w-12 h-12 bg-[#26495f] rounded-lg flex items-center justify-center mb-4">
