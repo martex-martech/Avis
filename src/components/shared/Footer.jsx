@@ -35,7 +35,7 @@ function Footer() {
                 <Link to="/billing" className="hover:text-blue-400 transition-colors">Billing Management</Link>
               </li>
               <li>
-                <Link to="/loan" className="hover:text-blue-400 transition-colors">Loan Management</Link>
+                <Link to="/mobile-development" className="hover:text-blue-400 transition-colors">App Development</Link>
               </li>
               <li>
                 <Link to="/digital-marketing" className="hover:text-blue-400 transition-colors">Digital Marketing</Link>

@@ -61,14 +61,14 @@ function HomePage() {
             automation platform for modern Indian businesses. Streamline
             operations, boost efficiency, and grow faster.
           </p>
-          <Button
+          {/* <Button
             onClick={() => navigate('/coming-soon')}
             size="lg"
             className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 text-lg"
           >
             <Download className="mr-2 h-5 w-5" />
             Download Free App
-          </Button>
+          </Button> */}
         </div>
       </section>
 
