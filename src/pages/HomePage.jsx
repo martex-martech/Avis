@@ -57,7 +57,7 @@ function HomePage() {
             <span className="text-orange-400 block">Simplified</span>
           </h1>
           <p className="text-xl md:text-2xl text-white mb-8 max-w-4xl mx-auto">
-            Avis is the all-in-one billing, loan management, and business
+            Avis is the all-in-one billing, and business
             automation platform for modern Indian businesses. Streamline
             operations, boost efficiency, and grow faster.
           </p>

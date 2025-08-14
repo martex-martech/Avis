@@ -20,7 +20,7 @@ function Footer() {
               
             </div>
             <p className="text-gray-400 text-sm">
-              Empowering Indian businesses with innovative technology solutions for billing, loans, and digital growth.
+              Empowering Indian businesses with innovative technology solutions for billing, and digital growth.
             </p>
             <div className="flex space-x-4">
               {/* Social icons would go here */}
