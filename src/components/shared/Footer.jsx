@@ -8,16 +8,16 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
-          
+
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center">
-              <img 
-                src={avisLogo} 
-                alt="Avis" 
+              <img
+                src={avisLogo}
+                alt="Avis"
                 className="h-10 w-20 mr-3 bg-white rounded p-1"
               />
-              
+
             </div>
             <p className="text-gray-400 text-sm">
               Empowering Indian businesses with innovative technology solutions for billing, and digital growth.
@@ -59,7 +59,7 @@ function Footer() {
               <li>
                 <Link to="/refund-policy" className="hover:text-blue-400 transition-colors">Refund Policy</Link>
               </li>
-                            <li>
+              <li>
                 <Link to="/privacy-policy" className="hover:text-blue-400 transition-colors">Privacy Policy</Link>
               </li>
             </ul>
@@ -70,7 +70,7 @@ function Footer() {
             <h3 className="text-white text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-1 text-gray-300">
               <li >
-                
+
                 <span>Avis Enterprises</span>
               </li>
               <li>
