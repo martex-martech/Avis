@@ -161,7 +161,9 @@ function WebsiteDevelopmentPage() {
                 <li>✔️ Contact Form</li>
                 <li>✔️ Delivery within 5 days</li>
               </ul>
-              <Button className="bg-[#26495f] hover:bg-[#26495f]/90 text-white w-full py-3">
+              <Button className="bg-[#26495f] hover:bg-[#26495f]/90 text-white w-full py-3"
+              onClick={handleClick}
+              >
                 Get Starter Plan
               </Button>
             </div>
@@ -177,7 +179,9 @@ function WebsiteDevelopmentPage() {
                 <li>✔️ Custom Features</li>
                 <li>✔️ Delivery within 7–10 days</li>
               </ul>
-              <Button className="bg-[#26495f] hover:bg-[#26495f]/90 text-white w-full py-3">
+              <Button className="bg-[#26495f] hover:bg-[#26495f]/90 text-white w-full py-3"
+              onClick={handleClick}
+              >
                 Choose Professional
               </Button>
             </div>
@@ -193,7 +197,9 @@ function WebsiteDevelopmentPage() {
                 <li>✔️ Scalable Architecture</li>
                 <li>✔️ Dedicated Support</li>
               </ul>
-              <Button className="bg-[#26495f] hover:bg-[#26495f]/90 text-white w-full py-3">
+              <Button className="bg-[#26495f] hover:bg-[#26495f]/90 text-white w-full py-3"
+              onClick={handleClick}
+              >
                 Book Enterprise Plan
               </Button>
             </div>

@@ -159,6 +159,7 @@ function MobileDevelopmentPage() {
             <p className="text-lg text-gray-700 mb-6">One-time development fee tailored to your project scope</p>
             <Button
               className="bg-[#26495f] hover:bg-[#26495f]/90 text-white px-8 py-3 text-lg transition-transform transform hover:scale-105"
+              onClick={handleClick}
             >
               Request a Quote
             </Button>
