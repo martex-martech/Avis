@@ -11,8 +11,13 @@ import {
   Handshake,
   ArrowRight
 } from 'lucide-react'
+import { useNavigate } from 'react-router-dom';
 
 function MobileDevelopmentPage() {
+  const navigate = useNavigate();
+    const handleClick = () => {
+    navigate('/about#contact');
+  };
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-[#26495f]/10">
       <Navigation />
@@ -32,6 +37,7 @@ function MobileDevelopmentPage() {
             <Button
               size="lg"
               className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 text-lg shadow-lg transition-all duration-300 transform hover:scale-105"
+              onClick={handleClick}
             >
               Get Free Consultation
             </Button>
@@ -173,6 +179,7 @@ function MobileDevelopmentPage() {
             <Button
               size="lg"
               className="bg-white text-[#26495f] border-2 border-[#26495f]/20 hover:bg-[#26495f]/5 hover:text-[#26495f] px-8 py-4 text-lg shadow-lg transition-all duration-300 transform hover:scale-105"
+              onClick={handleClick}
             >
               Start Your Digital Journey
               <ArrowRight className="ml-2 h-5 w-5" />
