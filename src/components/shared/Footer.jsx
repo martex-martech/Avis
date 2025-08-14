@@ -57,7 +57,7 @@ function Footer() {
                 <Link to="/terms" className="hover:text-blue-400 transition-colors">Terms & Conditions</Link>
               </li>
               <li>
-                <Link to="/refund-policy" className="hover:text-blue-400 transition-colors">Refund Policy</Link>
+                <Link to="https://www.avis4u.in/refund-policy" className="hover:text-blue-400 transition-colors">Refund Policy</Link>
               </li>
               <li>
                 <Link to="/privacy-policy" className="hover:text-blue-400 transition-colors">Privacy Policy</Link>
