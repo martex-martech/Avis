@@ -290,7 +290,166 @@ function DigitalMarketingPage() {
         </div>
       </section>
 
+      {/* Pricing Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Transparent Digital Marketing Pricing
+          </h2>
+          <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
+            Flexible packages designed to fit businesses of all sizes with measurable results
+          </p>
 
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Starter Plan */}
+            <div className="bg-white rounded-xl p-8 shadow-lg border border-[#26495f]/20 hover:shadow-xl transition-all transform hover:-translate-y-2">
+              <div className="mb-6">
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Starter Plan</h3>
+                <p className="text-gray-600 mb-4">Ideal for small businesses</p>
+                <div className="flex justify-center items-baseline">
+                  <span className="text-4xl font-bold text-[#26495f]">₹25,000</span>
+                  <span className="text-gray-500 ml-1">/month</span>
+                </div>
+              </div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>SEO (5 Keywords)</span>
+                </li>
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>Social Media Management (2 platforms)</span>
+                </li>
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>4 Blog Posts/Month</span>
+                </li>
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>Basic Analytics Report</span>
+                </li>
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>Monthly Strategy Call</span>
+                </li>
+              </ul>
+              <Button
+                className="w-full bg-[#26495f] hover:bg-[#26495f]/90 text-white py-3"
+                onClick={handleClick}
+              >
+                Get Started
+              </Button>
+            </div>
+
+            {/* Growth Plan */}
+            <div className="bg-white rounded-xl p-8 shadow-2xl border-2 border-orange-500 transform scale-105 hover:scale-110 transition-all">
+              <div className="mb-6">
+                <div className="flex justify-center">
+                  <span className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-2">
+                    MOST POPULAR
+                  </span>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Growth Plan</h3>
+                <p className="text-gray-600 mb-4">Perfect for growing businesses</p>
+                <div className="flex justify-center items-baseline">
+                  <span className="text-4xl font-bold text-[#26495f]">₹50,000</span>
+                  <span className="text-gray-500 ml-1">/month</span>
+                </div>
+              </div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>SEO (10 Keywords)</span>
+                </li>
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>Social Media Management (3 platforms)</span>
+                </li>
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>Google Ads Management (₹15k ad spend)</span>
+                </li>
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>8 Blog Posts/Month</span>
+                </li>
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>Detailed Analytics Dashboard</span>
+                </li>
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>Bi-Weekly Strategy Calls</span>
+                </li>
+              </ul>
+              <Button
+                className="w-full bg-orange-600 hover:bg-orange-700 text-white py-3"
+                onClick={handleClick}
+              >
+                Choose Growth Plan
+              </Button>
+            </div>
+
+            {/* Enterprise Plan */}
+            <div className="bg-white rounded-xl p-8 shadow-lg border border-[#26495f]/20 hover:shadow-xl transition-all transform hover:-translate-y-2">
+              <div className="mb-6">
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Enterprise Plan</h3>
+                <p className="text-gray-600 mb-4">For established businesses</p>
+                <div className="flex justify-center items-baseline">
+                  <span className="text-4xl font-bold text-[#26495f]">₹1,00,000</span>
+                  <span className="text-gray-500 ml-1">/month</span>
+                </div>
+              </div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>Comprehensive SEO (20+ Keywords)</span>
+                </li>
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>Full Social Media Management (5 platforms)</span>
+                </li>
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>Google & Facebook Ads Management (₹50k ad spend)</span>
+                </li>
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>Content Marketing Strategy</span>
+                </li>
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>Email Marketing Campaigns</span>
+                </li>
+                <li className="flex items-center text-gray-600">
+                  <ArrowRight className="h-4 w-4 text-orange-600 mr-2" />
+                  <span>Weekly Strategy Calls & Dedicated Account Manager</span>
+                </li>
+              </ul>
+              <Button
+                className="w-full bg-[#26495f] hover:bg-[#26495f]/90 text-white py-3"
+                onClick={handleClick}
+              >
+                Contact for Enterprise
+              </Button>
+            </div>
+          </div>
+
+          <div className="mt-12 bg-[#26495f]/5 p-6 rounded-lg border border-[#26495f]/10">
+            <h4 className="text-xl font-semibold text-[#26495f] mb-3">Custom Solutions Available</h4>
+            <p className="text-gray-600 mb-4">
+              Need something different? We offer tailored digital marketing packages based on your specific requirements and budget.
+            </p>
+            <Button
+              variant="outline"
+              className="border-[#26495f] text-[#26495f] hover:bg-[#26495f]/10"
+              onClick={handleClick}
+            >
+              Request Custom Quote
+            </Button>
+          </div>
+        </div>
+      </section>
 
       {/* Call to Action */}
       <section className="py-16 bg-gradient-to-br from-orange-50 to-orange-100">

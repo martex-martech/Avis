@@ -155,7 +155,7 @@ function MobileDevelopmentPage() {
           </p>
 
           <div className="inline-block bg-gradient-to-br from-[#26495f]/10 to-[#26495f]/5 border border-[#26495f]/20 rounded-2xl shadow-lg p-10">
-            <h3 className="text-5xl font-extrabold text-[#26495f] mb-2">Starts from ₹6000</h3>
+            <h3 className="text-5xl font-extrabold text-[#26495f] mb-2">Starts from ₹6000 to ₹30000</h3>
             <p className="text-lg text-gray-700 mb-6">One-time development fee tailored to your project scope</p>
             <Button
               className="bg-[#26495f] hover:bg-[#26495f]/90 text-white px-8 py-3 text-lg transition-transform transform hover:scale-105"
